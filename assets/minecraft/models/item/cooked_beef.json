@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cooked_beef"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/sushi"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/sandwich"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/burger"},
+		{"predicate": {"custom_model_data": 4}, "model": "item/bacon"},
+		{"predicate": {"custom_model_data": 5}, "model": "item/banana_bread"},
+		{"predicate": {"custom_model_data": 6}, "model": "item/cooked_kalamari"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/ice_cream"},
+		{"predicate": {"custom_model_data": 8}, "model": "item/salad"},
+		{"predicate": {"custom_model_data": 9}, "model": "item/dirt"}
+	]
+}

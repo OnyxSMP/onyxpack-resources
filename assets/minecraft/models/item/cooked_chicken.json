@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/cooked_chicken"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/pretzel"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/cheese"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/raw_kalamari"}
+	]
+}

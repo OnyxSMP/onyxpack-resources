@@ -1,0 +1,30 @@
+name: Create Archive
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: pull latest and remove old file from repo
+      run: |
+        git config --global user.name "ZombieNW"
+        git config --global user.email "zackattack200@cox.net"
+        git config pull.rebase false
+        git pull
+        rm -f release.zip
+    - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v3
+        with:
+          allow_optifine_mod: false
+          maximum_image_width_and_height: 8192
+    - name: Archive Release
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'release.zip'
+        exclusions: '*.git* /*node_modules/* .editorconfig'
+    - name: push changes to remote
+      run: |
+        git add -A
+        git commit -m "new pack"
+        git push --force

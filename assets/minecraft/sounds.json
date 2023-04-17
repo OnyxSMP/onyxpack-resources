@@ -1,0 +1,10 @@
+{
+"music_disc.cbt": {
+    "sounds": [
+        {
+            "name": "records/cbt",
+            "stream": true
+        }
+    ]
+}
+}

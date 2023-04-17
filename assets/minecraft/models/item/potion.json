@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/potion_overlay",
+		"layer1": "item/potion"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/soda_full" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/milkshake" },
+		{ "predicate": { "custom_model_data": 3}, "model": "item/wine" }
+	]
+}

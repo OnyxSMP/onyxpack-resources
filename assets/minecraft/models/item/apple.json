@@ -1,0 +1,15 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/apple"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/banana"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/lemon"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/cherry"},
+		{"predicate": {"custom_model_data": 4}, "model": "item/blueberry"},
+		{"predicate": {"custom_model_data": 5}, "model": "item/grapes"},
+		{"predicate": {"custom_model_data": 6}, "model": "item/lettuce"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/tomato"}
+	]
+}
