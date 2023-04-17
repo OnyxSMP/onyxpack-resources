@@ -11,11 +11,13 @@ jobs:
         git config --global user.name "ZombieNW"
         git config --global user.email "zackattack200@cox.net"
         git config pull.rebase false
+        git fetch --prune --unshallow
         git pull
         rm -f release.zip
     - name: Run PackSquash
       uses: ComunidadAylas/PackSquash-action@v3
       with:
+        fetch-depth: 0
         allow_optifine_mod: false
         maximum_image_width_and_height: 8192
     - name: Archive Release
