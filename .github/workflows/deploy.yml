@@ -14,10 +14,10 @@ jobs:
         git pull
         rm -f release.zip
     - name: Run PackSquash
-        uses: ComunidadAylas/PackSquash-action@v3
-        with:
-          allow_optifine_mod: false
-          maximum_image_width_and_height: 8192
+      uses: ComunidadAylas/PackSquash-action@v3
+      with:
+        allow_optifine_mod: false
+        maximum_image_width_and_height: 8192
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
