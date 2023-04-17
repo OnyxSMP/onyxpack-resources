@@ -27,6 +27,8 @@ jobs:
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: push changes to remote
       run: |
+        git config --global user.name "ZombieNW"
+        git config --global user.email "zackattack200@cox.net"
         git add -A
         git commit -m "new pack"
         git push --force
