@@ -9,6 +9,7 @@
 		{"predicate": {"custom_model_data": 3}, "model": "item/empty"},
 		{"predicate": {"custom_model_data": 4}, "model": "item/soda_empty"},
 		{"predicate": {"custom_model_data": 5}, "model": "item/salt"},
-		{"predicate": {"custom_model_data": 6}, "model": "item/blackstar"}
+		{"predicate": {"custom_model_data": 6}, "model": "item/blackstar"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/bullet"}
 	]
 }

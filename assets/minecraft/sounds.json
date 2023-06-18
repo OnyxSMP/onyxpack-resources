@@ -6,5 +6,29 @@
             "stream": true
         }
     ]
+},
+"item.pistol.fire": {
+    "sounds": [
+        {
+            "name": "item/pistol/fire",
+            "stream": true
+        }
+    ]
+},
+"item.pistol.load": {
+    "sounds": [
+        {
+            "name": "item/pistol/load",
+            "stream": true
+        }
+    ]
+},
+"item.pistol.click": {
+    "sounds": [
+        {
+            "name": "item/pistol/click",
+            "stream": true
+        }
+    ]
 }
 }
